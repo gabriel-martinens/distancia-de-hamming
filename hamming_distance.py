@@ -1,4 +1,4 @@
-def hamming_distance(text1: bytes, text2) -> int:
+def hamming_distance(text1: bytes, text2: bytes) -> int:
   distancia = 0
   for x,y in zip(text1, text2):
     xor = x ^ y
